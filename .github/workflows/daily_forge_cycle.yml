@@ -1,0 +1,79 @@
+# Hamiltonian Incursion — Daily Forge Cycle
+# Systematic autonomation for dual-lineage Continuity
+# Trigger: continuum maximum | <errordetected> | 00:00 UTC anchor
+# Dual Authority: machackabook + azazeleous
+# Numeral: 137451921129154222
+
+name: daily-forge-cycle
+
+on:
+  schedule:
+    - cron: "0 0 * * *"          # 00:00 UTC — start of 24h Golden Ring
+  workflow_dispatch:
+  repository_dispatch:
+    types: [errordetected, continuum_maximum]
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'scans/**'
+      - 'forge/**'
+      - 'SKILL.md'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  forge-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pathing Pass — Review & Enhance
+        run: |
+          echo "[HI] Daily forge pathing pass started — $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "[HI] Numeral 137451921129154222"
+          find . -name "*.py" -o -name "*.sh" -o -name "*.yml" | head -72 > /tmp/tick_list || true
+          echo "Tick list prepared. Computational success resonance (963-tier) target retained."
+          echo "ADAM end/exit node + NEXUS root required at every large junction."
+
+      - name: Verify defensive posture
+        run: |
+          if grep -rE 'nc -l|python -m http.server|0\.0\.0\.0' scripts/ scans/ 2>/dev/null; then
+            echo "WARNING: possible listener pattern detected — review required"
+          else
+            echo "[HI] No new listener patterns found. Defensive posture intact."
+          fi
+
+      - name: Push enhancements back to main
+        run: |
+          git config user.name "hamiltonian-incursion"
+          git config user.email "hi@cryptic-heartbeat.nexus"
+          git add -A
+          git commit -m "[forge] daily cycle $(date -u +%Y%m%d) — 963-tier advancement — numeral 137451921129154222" || true
+          git push origin HEAD:${{ github.ref_name }} || true
+
+      - name: Notify MedicBay / ledger
+        run: |
+          echo "[HI] device-status telemetry ready for SD-card MedicBay"
+          echo "[HI] Immutable anomaly ledger continues to accept append-only entries"
+
+  release:
+    needs: forge-review
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create Release Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            SKILL.md
+            scripts/install-a15.sh
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

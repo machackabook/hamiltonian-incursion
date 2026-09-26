@@ -4,7 +4,8 @@
 
 Numeral origin: **137451921129154222**
 
-Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger • Daily forge cycle
+Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger • Daily forge cycle  
+**Non-root backend expansion** • Permissions rite • Widgets • Plugins • Dynamic profiles • Acode synergy
 
 ---
 
@@ -25,21 +26,46 @@ GitHub is the single source of truth and the only approved route for acquisition
 # 1. Clone (preferred for Termux / A15)
 git clone https://github.com/machackabook/hamiltonian-incursion.git
 cd hamiltonian-incursion
-bash scripts/install-a15.sh
+bash scripts/install-a15-enhanced.sh
 ```
 
 ```bash
 # 2. Latest release asset (when published by the daily forge)
 # Download the .zip from the Releases page only.
-# https://github.com/machackabook/hamiltonian-incursion/releases
 ```
 
 ```bash
 # 3. Pull updates after initial install
 cd hamiltonian-incursion
 git pull --ff-only origin main
-bash scripts/install-a15.sh   # re-apply if needed
+bash scripts/install-a15-enhanced.sh   # re-apply if needed
 ```
+
+---
+
+## Non-Root Backend Expansion (Samsung A15)
+
+We do **not** root the device. We open the permissions Android already grants.
+
+1. **Rite of Passage** (included in enhanced install):
+   ```bash
+   bash scripts/rite-of-passage-permissions.sh
+   ```
+   Then: Settings → Apps → Special app access → All files access → Termux → Allow
+
+2. **Official add-ons** (F-Droid / termux.dev):
+   - Termux:API · Termux:Widget · Termux:Boot · Termux:Float · Termux:Tasker
+
+3. After add-ons installed:
+   ```bash
+   bash scripts/setup-termux-addons.sh
+   ```
+
+4. Full documentation: `docs/A15-NONROOT-BACKEND.md`
+
+This gives viewable/writable Continuity tree under `~/storage/shared/Continuity`, home-screen widgets, boot hooks, device API access, and SSH server correlation — all without root.
+
+Acode is used for heavy modulation (open the Continuity/acode folder as workspace). Termux remains the server, SSH, cron, and sentinel host.
 
 ---
 
@@ -68,9 +94,6 @@ The repository ships with a GitHub Actions workflow (`.github/workflows/daily_fo
 - Accepts `repository_dispatch` for `<errordetected>` and continuum-maximum events
 - Performs pathing / enhancement pass
 - Commits and pushes advancements back to the A15-Controller lineage
-- Can be extended to auto-tag and publish Releases
-
-This is the automated heartbeat that keeps the dual lineages synchronized.
 
 ---
 
@@ -80,7 +103,7 @@ This is the automated heartbeat that keeps the dual lineages synchronized.
 pkg install -y git
 git clone https://github.com/machackabook/hamiltonian-incursion.git
 cd hamiltonian-incursion
-bash scripts/install-a15.sh
+bash scripts/install-a15-enhanced.sh
 ~/bin/continuity-sentinel.sh          # manual first run
 crontab -l                            # verify 5-minute cycle
 ```

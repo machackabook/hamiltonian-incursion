@@ -1,0 +1,120 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+# Hamiltonian Incursion — Universal command dispatcher
+# Numeral 137451921129154222
+# Allows: hi scan | hi ledger | hi workforce | hi prune | hi profile ...
+# No need to type bash / full paths. Hotswappable via extensions.
+set -euo pipefail
+
+HI_ROOT="${HI_ROOT:-$HOME/hamiltonian-incursion}"
+if [[ ! -d "$HI_ROOT" ]]; then
+  for candidate in "$HOME/hamiltonian-incursion" "$HOME/strange-loop-a15-controller" "$(pwd)"; do
+    if [[ -d "$candidate/scripts" || -d "$candidate/device" ]]; then
+      HI_ROOT="$candidate"
+      break
+    fi
+  done
+fi
+
+NUMERAL="137451921129154222"
+CMD="${1:-help}"
+shift || true
+
+# Load any hotswappable extensions
+EXT_DIR="$HI_ROOT/extensions"
+if [[ -d "$EXT_DIR" ]]; then
+  for ext in "$EXT_DIR"/*.sh; do
+    [[ -f "$ext" ]] && source "$ext" 2>/dev/null || true
+  done
+fi
+
+case "$CMD" in
+  scan|sentinel)
+    exec bash "$HI_ROOT/scripts/continuity-sentinel.sh" "$@"
+    ;;
+  assist|auto)
+    exec bash "$HI_ROOT/scripts/hi-auto-assist.sh" "$@"
+    ;;
+  workforce|work)
+    exec bash "$HI_ROOT/scripts/hi-workforce.sh" "$@"
+    ;;
+  prune)
+    exec bash "$HI_ROOT/scripts/device_prune.sh" "$@"
+    ;;
+  detect|class)
+    exec bash "$HI_ROOT/device/detect.sh" "$@"
+    ;;
+  profile)
+    exec bash "$HI_ROOT/profiles/create_profile.sh" "$@"
+    ;;
+  bg|background)
+    exec bash "$HI_ROOT/backgrounds/set_dynamic_bg.sh" "$@"
+    ;;
+  pipethru|pipe)
+    exec bash "$HI_ROOT/scripts/pipethru.sh" "$@"
+    ;;
+  ledger)
+    tail -n "${1:-50}" "${HOME}/strange-loop-a15-controller/continuity_ledger.jsonl" 2>/dev/null || echo "ledger not yet created"
+    ;;
+  strength)
+    python3 "${HOME}/strange-loop-a15-controller/agents/error_corrector.py" \
+      --ledger "${HOME}/strange-loop-a15-controller/continuity_ledger.jsonl" \
+      --remedy "${HOME}/strange-loop-a15-controller/.github/remedy" \
+      --numeral "$NUMERAL" "$@"
+    ;;
+  pull|update)
+    cd "$HI_ROOT" && git pull --ff-only origin main
+    ;;
+  ext|extensions)
+    if [[ "${1:-}" == "pull" ]]; then
+      echo "[HI] Extension pull — using official repo only"
+      cd "$HI_ROOT" && git pull --ff-only origin main
+      echo "[HI] Extensions refreshed from source of truth"
+    else
+      ls -1 "$EXT_DIR" 2>/dev/null || echo "no extensions directory"
+    fi
+    ;;
+  runtime|rt)
+    echo "[HI] Runtime probe (defensive, local only)"
+    for r in python python3 pip pip3 bun uv node npm; do
+      if command -v "$r" >/dev/null 2>&1; then
+        echo "  present: $r → $(command -v $r)"
+      else
+        echo "  missing: $r"
+      fi
+    done
+    ;;
+  help|--help|-h|"")
+    cat << EOF
+Hamiltonian Incursion — universal dispatcher (hi)
+Numeral $NUMERAL
+
+Usage: hi <command> [args]
+
+Core:
+  scan / sentinel     Run continuity sentinel
+  assist / auto       Full auto-assist suite
+  workforce / work    Device-aware workforce pipeline
+  prune               Prune foreign device artifacts
+  detect / class      Titrate device class
+  profile [name]      Create / switch Azazel profile
+  bg / background     Apply dynamic Termux visual identity
+  pipethru <file>     Run declarative low-syntax pipeline
+  ledger [n]          Show last n ledger lines
+  strength            Run error_corrector strength pass
+  pull / update       git pull from official repo only
+  ext / extensions    List or 'ext pull' to refresh
+  runtime / rt        Probe pip / bun / uv / node / python
+
+Extensions in $EXT_DIR are sourced automatically (hotswappable).
+EOF
+    ;;
+  *)
+    if declare -F "hi_ext_$CMD" >/dev/null 2>&1; then
+      "hi_ext_$CMD" "$@"
+    else
+      echo "[HI] Unknown command: $CMD"
+      echo "Run: hi help"
+      exit 1
+    fi
+    ;;
+esac

@@ -1,0 +1,19 @@
+# Hamiltonian Incursion — Device-aware bootstrap pipeline
+# Numeral 137451921129154222
+# One command per line. Comments start with #.
+# Designed for low parse error surface.
+
+# 1. Titrate device awareness
+bash device/detect.sh
+
+# 2. Pull latest from sole source of truth (user must already be inside the clone)
+git pull --ff-only origin main || true
+
+# 3. Run full defensive auto-assist
+bash scripts/hi-auto-assist.sh || true
+
+# 4. Prune foreign device artifacts into MedicBay
+bash scripts/device_prune.sh || true
+
+# 5. Optional: apply visual identity only on a15-termux
+# (the detect stamp is used by later scripts)

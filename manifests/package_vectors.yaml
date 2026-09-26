@@ -1,0 +1,88 @@
+# Hamiltonian Incursion — Lang-code + Device package vectors
+# Numeral 137451921129154222
+# Only the matching device_class + lang vector is activated.
+# All others are considered foreign and subject to prune.
+
+version: "2026.09.26"
+numeral: "137451921129154222"
+
+# Universal baseline (safe on every class)
+universal:
+  lang: ["*"]
+  packages: []
+  structures:
+    - "scans/"
+    - "scripts/continuity-sentinel.sh"
+    - "scripts/error_corrector.py"
+    - "scripts/hi-auto-assist.sh"
+    - "azazel/"
+    - "hive/"
+    - "medicbay/"
+
+# A15 / Termux / Samsung primary lineage
+a15-termux:
+  lang: ["en", "ja", "universal", "*"]
+  packages:
+    - git
+    - jq
+    - curl
+    - termux-api
+    - cronie
+    - python
+  structures:
+    - "scripts/install-a15-enhanced.sh"
+    - "backgrounds/"
+    - "profiles/"
+    - "scans/06-malware-indicator-scan.sh"
+    - "scans/07-folder-watcher-scan.sh"
+    - "scans/08-extension-package-scan.sh"
+    - "scans/09-process-anomaly-scan.sh"
+  prune_foreign: true
+
+# proot environments
+proot:
+  lang: ["en", "universal", "*"]
+  packages:
+    - git
+    - jq
+    - curl
+    - python3
+  structures:
+    - "scripts/"
+    - "scans/"
+  prune_foreign: true
+
+# WSL
+wsl:
+  lang: ["en", "universal", "*"]
+  packages:
+    - git
+    - jq
+    - curl
+    - python3
+  structures:
+    - "scripts/"
+    - "scans/"
+  prune_foreign: true
+
+# Highly constrained / WebTV-class
+webtv-class:
+  lang: ["universal"]
+  packages: []
+  structures:
+    - "SKILL.md"
+    - "README.md"
+  prune_foreign: true
+  note: "Minimal surface only. Everything else is foreign."
+
+# Fallback
+generic-posix:
+  lang: ["en", "universal", "*"]
+  packages:
+    - git
+    - jq
+    - curl
+  structures:
+    - "scripts/"
+    - "scans/"
+  prune_foreign: true

@@ -7,6 +7,8 @@ Numeral origin: **137451921129154222**
 Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger • Daily forge cycle  
 **Non-root backend expansion** • Permissions rite • Widgets • Plugins • Dynamic profiles • Acode synergy
 
+Stage: **312** — 2026-09-27T22:11Z • Team Enhance hop • Operating in the middle
+
 ---
 
 ## Sole Distribution Channel
@@ -18,7 +20,8 @@ https://github.com/machackabook/hamiltonian-incursion
 ```
 
 No third-party mirrors. No Drive-only packages. No external zips as primary source.  
-GitHub is the single source of truth and the only approved route for acquisition and updates.
+GitHub is the single source of truth and the only approved route for acquisition and updates.  
+Google Drive is the ethereal continuum *mirror*, not a second origin.
 
 ### Official acquisition methods
 
@@ -95,6 +98,8 @@ The repository ships with a GitHub Actions workflow (`.github/workflows/daily_fo
 - Performs pathing / enhancement pass
 - Commits and pushes advancements back to the A15-Controller lineage
 
+Team Enhance hops one repo per cycle. Do not clone extra hourly YAML. Keep cascade healthy.
+
 ---
 
 ## Quick Termux / A15 arming
@@ -119,12 +124,22 @@ crontab -l                            # verify 5-minute cycle
 
 Both share the same ledger, remedy cards, and scanning concepts.
 
+## Mesh siblings
+
+- [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
+- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
+- [The-Hive](https://github.com/machackabook/The-Hive)
+- [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+- [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
+
 ---
 
 ## Authority
 
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
+
+Latest hop: `docs/HOP-312.md` • `ledger/STAGE_312.json`
 
 ---
 

@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **342** — 2026-09-29T20:12 CDT • Team Enhance hop • sSoS Operating
+Stage: **348** — 2026-09-30T17:12 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -148,9 +148,9 @@ Both share the same ledger, remedy cards, and scanning concepts.
 
 ## Waterfall receipt
 
-- Prior: living-bibliography HOP-341, speedway 340, tdoc CYCLE-340, The-Hive 332
-- This hop: hamiltonian-incursion **342**
-- Next hop: nexus-repo-sync then gaia-visualizer
+- Prior: continuity-mesh-speedway **348**
+- This hop: hamiltonian-incursion **348**
+- Next hop: nexus-repo-sync
 
 ## Compounding
 
@@ -165,7 +165,7 @@ Session attachments cataloged, not executed: NEXUS Emergency Sphere, GENESIS v6.
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest hop: `docs/HOP-342.md` • `ledger/STAGE_342.json`
+Latest hop: `docs/HOP-348.md`
 
 ---
 

@@ -1,0 +1,85 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+# Nxus — Elevated / root-intent surface
+# Continuity Engine × Hamiltonian Incursion
+# Numeral 137451921129154222
+# A15 / Termux charter remains non-root by default.
+# This dispatcher only proceeds with elevated actions when real root is present.
+set -euo pipefail
+
+NEXUS_ROOT="${NEXUS_ROOT:-$HOME/hamiltonian-incursion}"
+if [[ ! -d "$NEXUS_ROOT" ]]; then
+  for candidate in "$HOME/hamiltonian-incursion" "$HOME/strange-loop-a15-controller" "$(pwd)"; do
+    if [[ -d "$candidate/scripts" || -d "$candidate/device" ]]; then
+      NEXUS_ROOT="$candidate"
+      break
+    fi
+  done
+fi
+
+NUMERAL="137451921129154222"
+CMD="${1:-help}"
+shift || true
+
+is_root() {
+  [[ "$(id -u)" -eq 0 ]]
+}
+
+require_root() {
+  if ! is_root; then
+    echo "[NXUS] Root required for this action."
+    echo "[NXUS] Current charter (A15-NONROOT-BACKEND) does not assume root."
+    echo "[NXUS] Refusing to escalate. Use 'nexus' for normal admin operations."
+    exit 1
+  fi
+}
+
+case "$CMD" in
+  status)
+    if is_root; then
+      echo "[NXUS] Running as root (uid=0). Elevated surface active."
+    else
+      echo "[NXUS] Not root. Elevated commands will be refused."
+      echo "[NXUS] Normal admin surface: nexus"
+    fi
+    ;;
+  whoami)
+    id
+    ;;
+  mount-check)
+    require_root
+    echo "[NXUS] mount table (elevated):"
+    mount | head -30
+    ;;
+  proc-scan)
+    require_root
+    echo "[NXUS] elevated process snapshot:"
+    ps -A -o pid,user,pcpu,pmem,comm | head -25
+    ;;
+  help|--help|-h|"")
+    cat << EOF
+Nxus — elevated / root-intent surface
+Numeral $NUMERAL
+
+Usage: nxus <command> [args]
+
+This surface is intentionally separated from 'nexus'.
+A15 / Termux Continuity charter remains non-root by default.
+Elevated commands only run when the process is actually root.
+
+Commands:
+  status       Show whether elevated surface is active
+  whoami       Show current id
+  mount-check  (root only) Show mount table
+  proc-scan    (root only) Elevated process snapshot
+  help         This message
+
+Normal admin operations → use: nexus
+EOF
+    ;;
+  *)
+    echo "[NXUS] Unknown or non-elevated command: $CMD"
+    echo "[NXUS] For normal admin work use: nexus"
+    echo "Run: nxus help"
+    exit 1
+    ;;
+esac

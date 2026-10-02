@@ -2,8 +2,8 @@
 
 - Session hash: `beec41f1`
 - Living hash: `7cd81012`
-- Stage: 277
-- Source: live chat 2026-09-24 18:04 CDT `update(t)` paste (re-pin)
+- Stage: 375
+- Source: live chat 2026-10-02 13:06 CDT `update(t)` paste (re-pin)
 - Theta law: `theta += (0.01 + idx * 0.002) * gravityPull`
 - Minor: `3 + toroidalWeave * 2`
 - Session lerp: `0.05` with `new THREE.Vector3` (immutable paste)
@@ -16,10 +16,13 @@ z = (major + minor * cos(phi)) * sin(theta)
 y = minor * sin(phi) * sin(t * 0.5 + idx)
 ```
 
-- Hamiltonian mapping:
+- Hamiltonian mapping (stage 375 pin):
 
 ```
+hScale = major
 x = hScale * cos(theta * 3) * cos(theta)
 z = hScale * cos(theta * 3) * sin(theta)
 y = hScale * sin(theta * 3) + sin(t) * 2
 ```
+
+Phi is unused on the hamiltonian arm. Ripple amplitude is 2, not minor. Paste is not rewritten.

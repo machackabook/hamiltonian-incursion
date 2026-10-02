@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **350** — 2026-10-01 19:17 CDT • Team Enhance hop • sSoS Operating
+Stage: **351** — 2026-10-01 21:08 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -120,6 +120,7 @@ The repository ships with a GitHub Actions workflow (`.github/workflows/daily_fo
 - Commits and pushes advancements back to the A15-Controller lineage
 
 Team Enhance hops one repo per cycle. Do not clone extra hourly YAML. Keep cascade healthy.
+This tree has no `cascade.yml`. The daily forge workflow is the cascade stand-in and was left untouched this hop.
 Cross-repo push-on-pull stays closed until `CASCADE_TOKEN` exists in Actions secrets (never in tree).
 
 ---
@@ -161,10 +162,11 @@ Both share the same ledger, remedy cards, and scanning concepts.
 
 ## Waterfall receipt
 
-- Prior in declared order: continuity-engine-ssos **353** @ 2026-10-02T00:10Z
-- This hop: hamiltonian-incursion **350**
-- Next hop: The-Hive
-- Declared rotation: ENCLAVE-ADAM-REUNITED → continuity-engine-ssos → hamiltonian-incursion → The-Hive → Cryptic-Heartbeat → gaia-visualizer → living-bibliography-continuity-engine → continuity-ledger-cycle
+- Named order already stamped this evening (~2026-10-02T01:10Z): ENCLAVE-ADAM-REUNITED, Cryptic-Heartbeat, The-Hive, continuity-ledger-cycle
+- Prior hop on this repo: **350** @ 2026-10-02T00:17Z
+- This hop: hamiltonian-incursion **351** @ 2026-10-02T02:08Z
+- Next hop: continuity-engine-ssos
+- Declared rotation: ENCLAVE-ADAM-REUNITED → Cryptic-Heartbeat → The-Hive → continuity-ledger-cycle → other recently updated repos
 
 ## Compounding
 
@@ -181,7 +183,7 @@ Stamp: `docs/LEDGER-STAMP.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 350.
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 351.
 
 ---
 

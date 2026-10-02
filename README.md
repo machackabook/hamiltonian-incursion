@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **348** — 2026-09-30T17:12 CDT • Team Enhance hop • sSoS Operating
+Stage: **350** — 2026-10-01 19:17 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -23,7 +23,7 @@ https://github.com/machackabook/hamiltonian-incursion
 
 No third-party mirrors. No Drive-only packages. No external zips as primary source.  
 GitHub is the single source of truth and the only approved route for acquisition and updates.  
-Google Drive is the ethereal continuum *mirror*, not a second origin.
+Google Drive folder CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU) is the cloud index, not a second origin. Mention only. No binaries uploaded from this hop.
 
 ### Official acquisition methods
 
@@ -45,6 +45,21 @@ cd hamiltonian-incursion
 git pull --ff-only origin main
 bash scripts/install-a15-enhanced.sh   # re-apply if needed
 ```
+
+---
+
+## Env-check (before install)
+
+Confirm the tree, not the network. This hop does not pair ADB, does not write Tailscale keys, and does not claim a rooted device.
+
+```bash
+git rev-parse --is-inside-work-tree
+command -v git && command -v bash
+test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
+# Optional: scripts/install-a15-enhanced.sh is the installer. Do not run it from CI.
+```
+
+Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it.
 
 ---
 
@@ -83,7 +98,7 @@ ADB / wireless-debug HUD panes in session attachments are **UI simulations**. Th
 - Recurring errors escalate to agent + Jules/Gemini CLI intercept.
 - Strength of every remedy card is scored by temporal metadata.
 - Battery-change telemetry is the only allowed outbound encoding channel on Termux.
-- ADAM end/exit node + NEXUS root heartbeat required at every large junction.
+- ADAM end/exit node + NEXUS root heartbeat required at every large junction. "Root" here names the heartbeat node, not a rooted handset.
 - Skeptical of network devices: catalog first, verify source tree, then act.
 - Trust source code. Catalog the known. Hunt only the unknown.
 
@@ -136,27 +151,28 @@ Both share the same ledger, remedy cards, and scanning concepts.
 ## Mesh siblings
 
 - [ENCLAVE-ADAM-REUNITED](https://github.com/machackabook/ENCLAVE-ADAM-REUNITED)
-- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
+- [continuity-engine-ssos](https://github.com/machackabook/continuity-engine-ssos)
 - [The-Hive](https://github.com/machackabook/The-Hive)
+- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 - [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+- [living-bibliography-continuity-engine](https://github.com/machackabook/living-bibliography-continuity-engine)
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 - [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove)
-- [continuity-mesh-speedway](https://github.com/machackabook/continuity-mesh-speedway)
-- [living-bibliography-continuity-engine](https://github.com/machackabook/living-bibliography-continuity-engine)
-- [continuity-engine-ssos](https://github.com/machackabook/continuity-engine-ssos)
-- [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 
 ## Waterfall receipt
 
-- Prior: continuity-mesh-speedway **348**
-- This hop: hamiltonian-incursion **348**
-- Next hop: nexus-repo-sync
+- Prior in declared order: continuity-engine-ssos **353** @ 2026-10-02T00:10Z
+- This hop: hamiltonian-incursion **350**
+- Next hop: The-Hive
+- Declared rotation: ENCLAVE-ADAM-REUNITED → continuity-engine-ssos → hamiltonian-incursion → The-Hive → Cryptic-Heartbeat → gaia-visualizer → living-bibliography-continuity-engine → continuity-ledger-cycle
 
 ## Compounding
 
 Current score for this surface: **97% (T5)**. T6 100% refused as static; always seek the next unknown.
 
 Session attachments cataloged, not executed: NEXUS Emergency Sphere, GENESIS v6.5, USTME WebGL, GaiaSSoul explorer, notebook export dashboard, DeepMind 9¾ plan, GeminiNexus React, immortaladamwrt-tailscalerouter.zip preview (download disabled). ADB panes are UI simulations.
+
+Stamp: `docs/LEDGER-STAMP.md`
 
 ---
 
@@ -165,7 +181,7 @@ Session attachments cataloged, not executed: NEXUS Emergency Sphere, GENESIS v6.
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest hop: `docs/HOP-348.md`
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 350.
 
 ---
 

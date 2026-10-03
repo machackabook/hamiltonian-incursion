@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **386** — 2026-10-03 00:08 CDT • Team Enhance hop • sSoS Operating
+Stage: **395** — 2026-10-03 13:12 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -57,9 +57,10 @@ git rev-parse --is-inside-work-tree
 command -v git && command -v bash
 test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 # Optional: scripts/install-a15-enhanced.sh is the installer. Do not run it from CI.
+# Refuse filenames that look like secrets: .env, id_rsa, tailscale-authkey, adb-pair-code.
 ```
 
-Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it.
+Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation.
 
 ---
 
@@ -162,17 +163,18 @@ Both share the same ledger, remedy cards, and scanning concepts.
 
 ## Waterfall receipt
 
-Declared order this cycle, then other recently updated surfaces. One repo, then stop.
+Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 371 @ 2026-10-02T23:08 CDT
-2. Cryptic-Heartbeat — hop 368 @ 2026-10-03T02:07Z
-3. The-Hive — hop 369 @ 2026-10-02T22:09 CDT
-4. continuity-ledger-cycle — hop 370 @ 2026-10-02T22:14 CDT (stage 385 mesh stamp later, not this hop)
-5. continuity-engine-ssos — hop 372 @ 2026-10-02T23:13 CDT named this repo next
-6. hamiltonian-incursion — **386 this hop** (prior local 363)
-7. living-bibliography-continuity-engine — next hour
+1. ENCLAVE-ADAM-REUNITED — hop 393 @ 2026-10-03T17:12Z
+2. continuity-engine-ssos — hop 394 @ 2026-10-03T18:07Z (named Cryptic-Heartbeat; operator order still seats this repo next)
+3. hamiltonian-incursion — **395 this hop** (2026-10-03T18:12Z; prior local 386)
+4. The-Hive ← next
+5. Cryptic-Heartbeat
+6. gaia-visualizer
+7. living-bibliography-continuity-engine
+8. continuity-ledger-cycle
 
-gaia-visualizer already carries hop 369; cataloged, not re-stamped this hour.
+Hop 386 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to The-Hive.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
@@ -190,7 +192,7 @@ Stamp: `docs/LEDGER-STAMP.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 386.
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 395.
 
 ---
 

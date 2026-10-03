@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **363** — 2026-10-02 16:08 CDT • Team Enhance hop • sSoS Operating
+Stage: **386** — 2026-10-03 00:08 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -162,19 +162,24 @@ Both share the same ledger, remedy cards, and scanning concepts.
 
 ## Waterfall receipt
 
-- Named order already stamped today: ENCLAVE-ADAM-REUNITED hop 361 @ 2026-10-02T19:12Z, Cryptic-Heartbeat hop 326 @ 2026-10-02T15:11Z, The-Hive hop 357 @ 2026-10-02T17:12Z, continuity-ledger-cycle hop 287 @ 2026-10-02T17:08Z
-- continuity-engine-ssos hop 362 @ 2026-10-02T20:07Z named this repo next
-- Prior hop on this repo: **358** @ 2026-10-02T06:10Z
-- This hop: hamiltonian-incursion **363** @ 2026-10-02T21:08Z / 16:08 CDT
-- Next hop: gaia-visualizer (stamp still at hop 347; The-Hive hop 357 named it)
-- Declared rotation: ENCLAVE-ADAM-REUNITED → Cryptic-Heartbeat → The-Hive → continuity-ledger-cycle → other recently updated repos
-- cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
+Declared order this cycle, then other recently updated surfaces. One repo, then stop.
+
+1. ENCLAVE-ADAM-REUNITED — hop 371 @ 2026-10-02T23:08 CDT
+2. Cryptic-Heartbeat — hop 368 @ 2026-10-03T02:07Z
+3. The-Hive — hop 369 @ 2026-10-02T22:09 CDT
+4. continuity-ledger-cycle — hop 370 @ 2026-10-02T22:14 CDT (stage 385 mesh stamp later, not this hop)
+5. continuity-engine-ssos — hop 372 @ 2026-10-02T23:13 CDT named this repo next
+6. hamiltonian-incursion — **386 this hop** (prior local 363)
+7. living-bibliography-continuity-engine — next hour
+
+gaia-visualizer already carries hop 369; cataloged, not re-stamped this hour.
+cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
 
-Current score for this surface: **97% (T5)**. T6 100% refused as static; always seek the next unknown.
+Current score for this surface: **98% (T5)**. T6 100% refused as static; always seek the next unknown.
 
-Session attachments cataloged, not executed: NEXUS Emergency Sphere, GENESIS v6.5, USTME WebGL, GaiaSSoul explorer, notebook export dashboard, DeepMind 9¾ plan, GeminiNexus React, immortaladamwrt-tailscalerouter.zip preview (download disabled). ADB panes are UI simulations.
+Session attachments cataloged, not executed. ADB panes are UI simulations. No device pairing from this hop.
 
 Stamp: `docs/LEDGER-STAMP.md`
 
@@ -185,7 +190,7 @@ Stamp: `docs/LEDGER-STAMP.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 363.
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 386.
 
 ---
 

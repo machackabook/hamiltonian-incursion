@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **395** — 2026-10-03 13:12 CDT • Team Enhance hop • sSoS Operating
+Stage: **408** — 2026-10-03 23:07 CDT • Team Enhance hop • sSoS Operating
 
 ---
 
@@ -165,16 +165,15 @@ Both share the same ledger, remedy cards, and scanning concepts.
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 393 @ 2026-10-03T17:12Z
-2. continuity-engine-ssos — hop 394 @ 2026-10-03T18:07Z (named Cryptic-Heartbeat; operator order still seats this repo next)
-3. hamiltonian-incursion — **395 this hop** (2026-10-03T18:12Z; prior local 386)
-4. The-Hive ← next
-5. Cryptic-Heartbeat
-6. gaia-visualizer
-7. living-bibliography-continuity-engine
-8. continuity-ledger-cycle
+1. continuity-engine-ssos — hop 407 @ 2026-10-03T22:12 CDT (named this repo next)
+2. hamiltonian-incursion — **408 this hop** (2026-10-04T04:07Z; prior local 395)
+3. ENCLAVE-ADAM-REUNITED ← next
+4. Cryptic-Heartbeat
+5. The-Hive
+6. continuity-ledger-cycle
+7. then other recently updated machackabook repos
 
-Hop 386 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to The-Hive.
+Hop 395 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to ENCLAVE-ADAM-REUNITED.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
@@ -192,7 +191,7 @@ Stamp: `docs/LEDGER-STAMP.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 395.
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 408.
 
 ---
 

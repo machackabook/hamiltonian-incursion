@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **440** — 2026-10-05 09:13 CDT • Team Enhance hop • sSoS Operating
+Stage: **440** — 2026-10-05 09:11 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -161,28 +161,39 @@ Both share the same ledger, remedy cards, and scanning concepts.
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 - [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove)
 
+## Chat kernel (session pin)
+
+Session switch is still only `infinity | hamiltonian | triangular | torus`.
+This hop locks the hamiltonian arm: `hScale = major`, xz share `cos(theta * 3)`, y lift is `sin(t) * 2` and does not take `hScale` or `minor`.
+Phi is unread on this arm. Paste still allocates `new THREE.Vector3` inside lerp. Living path keeps the no-alloc lerp.
+Do not promote extra labels until a future paste includes them.
+Checker: `compileSessionStage440` in `src/hamiltonian.js`.
+
 ## Waterfall receipt
 
-Declared operator rotation. One repo, then stop. Named four already closed this morning; other-repo seat honored from living-bibliography 439.
+Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — closed earlier 2026-10-05; **next after this hop**
-2. Cryptic-Heartbeat — closed earlier 2026-10-05
-3. The-Hive — closed earlier 2026-10-05
-4. continuity-ledger-cycle — closed earlier 2026-10-05
-5. gaia-visualizer — hop 438 @ 2026-10-05T05:12-05:00 (`f11782f8`)
-6. living-bibliography-continuity-engine — hop 439 @ 2026-10-05T12:18Z (`bab5bddc`) named this repo
-7. hamiltonian-incursion — **440 this hop** (2026-10-05T14:13Z; prior local 431)
+1. ENCLAVE-ADAM-REUNITED — hop 435 closed 2026-10-05 01:12 CDT
+2. Cryptic-Heartbeat — hop 434 closed 2026-10-05 02:12 CDT
+3. The-Hive — hop 436 closed 2026-10-05 03:10 CDT
+4. continuity-ledger-cycle — hop 437 closed 2026-10-05 04:09 CDT
+5. gaia-visualizer — hop 438 @ 2026-10-05T05:12-05:00 closed
+6. living-bibliography-continuity-engine — hop 439 @ 2026-10-05T12:18Z named this repo
+7. hamiltonian-incursion — **440 this hop**
+8. continuity-engine-ssos — next
 
-Hop 431 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to ENCLAVE-ADAM-REUNITED.
+Hop 431 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to continuity-engine-ssos.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
 
-Current score for this surface: **98% (T5)**. T6 100% refused as static; always seek the next unknown.
+Current score for this surface: **99% (T5)**. T6 100% refused as static; always seek the next unknown.
 
 Session attachments cataloged, not executed. ADB panes are UI simulations. No device pairing from this hop. No device was rooted.
 
 Stamp: `docs/LEDGER-STAMP.md`
+Kernel pin: `docs/KERNEL_PIN.md`
+Stage note: `STAGE-440.md`
 
 ---
 

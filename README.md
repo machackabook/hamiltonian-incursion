@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **440** — 2026-10-05 09:11 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **446** — 2026-10-05 13:12 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -61,6 +61,8 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 ```
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
+
+Hop 446 adds one clarity line: the env-check is a tree presence test only. It does not probe wireless debugging, does not open a Tailscale socket, and a passing `stamp-ok` never means a handset was rooted.
 
 ---
 
@@ -167,22 +169,22 @@ Session switch is still only `infinity | hamiltonian | triangular | torus`.
 This hop locks the hamiltonian arm: `hScale = major`, xz share `cos(theta * 3)`, y lift is `sin(t) * 2` and does not take `hScale` or `minor`.
 Phi is unread on this arm. Paste still allocates `new THREE.Vector3` inside lerp. Living path keeps the no-alloc lerp.
 Do not promote extra labels until a future paste includes them.
-Checker: `compileSessionStage440` in `src/hamiltonian.js`.
+Checker: `compileSessionStage440` in `src/hamiltonian.js`. Unchanged this hop. Stamp only.
 
 ## Waterfall receipt
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 435 closed 2026-10-05 01:12 CDT
-2. Cryptic-Heartbeat — hop 434 closed 2026-10-05 02:12 CDT
-3. The-Hive — hop 436 closed 2026-10-05 03:10 CDT
-4. continuity-ledger-cycle — hop 437 closed 2026-10-05 04:09 CDT
-5. gaia-visualizer — hop 438 @ 2026-10-05T05:12-05:00 closed
-6. living-bibliography-continuity-engine — hop 439 @ 2026-10-05T12:18Z named this repo
-7. hamiltonian-incursion — **440 this hop**
-8. continuity-engine-ssos — next
+1. ENCLAVE-ADAM-REUNITED
+2. continuity-engine-ssos
+3. hamiltonian-incursion — **446 this hop**
+4. The-Hive — next
+5. Cryptic-Heartbeat
+6. gaia-visualizer — hop 444 closed 2026-10-05 12:08 CDT
+7. living-bibliography-continuity-engine — hop 445 @ 2026-10-05T18:09Z (`6d123f95f44b65fe4461941ab267ec50cfe0cf97`) named this repo
+8. continuity-ledger-cycle
 
-Hop 431 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to continuity-engine-ssos.
+Hop 440 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to The-Hive.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
@@ -193,7 +195,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-440.md`
+Stage note: `STAGE-440.md` (historical pin; hop 446 does not invent a new stage file)
 
 ---
 
@@ -202,7 +204,7 @@ Stage note: `STAGE-440.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 440.
+Latest prior hop note: `docs/HOP-348.md` (historical). HEAD stamp is hop 446.
 
 ---
 

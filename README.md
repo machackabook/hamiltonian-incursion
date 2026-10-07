@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **485** — 2026-10-06 22:07 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **498** — 2026-10-07 12:08 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -62,7 +62,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
 
-Hop 485 adds one clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, or root. Do not run the installer from CI.
+Hop 498 keeps the hop 485 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI.
 
 ---
 
@@ -175,15 +175,15 @@ Checker: `compileSessionStage440` in `src/hamiltonian.js`. Unchanged this hop. S
 
 Declared operator rotation. One repo, then stop.
 
-1. continuity-engine-ssos — hop 484 closed 2026-10-06 21:14 CDT (`dae2bd0d54ac2c5f4eacc4b4f60373e34f99d912`); named this repo next. Honored.
-2. hamiltonian-incursion — **485 this hop**
+1. continuity-engine-ssos — hop 497 closed 2026-10-07 11:13 CDT (`1988c5485e1d66e6ca1d2fcdaed146b415eb0145`); named this repo next. Honored.
+2. hamiltonian-incursion — **498 this hop**
 3. ENCLAVE-ADAM-REUNITED — next (named rotation restarts)
 4. Cryptic-Heartbeat
 5. The-Hive
 6. continuity-ledger-cycle
 7. then other recently updated machackabook trees
 
-Hop 478 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the README pointer, leaves history intact, and hands the next cut to ENCLAVE-ADAM-REUNITED.
+Hop 485 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the stale hop-484 pointer, leaves history intact, and hands the next cut to ENCLAVE-ADAM-REUNITED.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 ## Compounding
@@ -194,7 +194,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-440.md` (historical pin; hop 485 does not invent a new stage file)
+Stage note: `STAGE-440.md` (historical pin; hop 498 does not invent a new stage file)
 
 ---
 
@@ -203,7 +203,7 @@ Stage note: `STAGE-440.md` (historical pin; hop 485 does not invent a new stage 
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 478 preserved in the stamp. HEAD stamp is hop 485.
+Latest prior local hop note: hop 485 preserved in the stamp. HEAD stamp is hop 498.
 
 ---
 

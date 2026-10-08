@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **513** — 2026-10-08 00:07 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **522** — 2026-10-08 12:11 CDT • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -62,7 +62,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
 
-Hop 513 keeps the hop 501 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI.
+Hop 522 keeps the hop 513 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI.
 
 ---
 
@@ -175,16 +175,16 @@ Checker: `compileSessionStage440` in `src/hamiltonian.js`. Unchanged this hop. S
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 511 closed 2026-10-07 22:12 CDT. Not this run.
-2. Cryptic-Heartbeat — hop 512 receipt closed 2026-10-07 23:09 CDT. Not this run.
-3. The-Hive — next
-4. continuity-ledger-cycle — hop 510 closed earlier; note 512 additive only. Not this run.
-5. continuity-engine-ssos — hop 512 @ 2026-10-08T04:13Z (`0d647293c7a6f60f24d3252d1322e48cee2ec7ad`) named this repo. Honored. Not re-touched.
-6. hamiltonian-incursion — **513 this hop** (2026-10-08 00:07 CDT)
-7. gaia-visualizer — not this run
-8. living-bibliography-continuity-engine — not this run
+1. ENCLAVE-ADAM-REUNITED — hop 520 closed 2026-10-08T14:16Z (`c2e2e32b`). Not this run.
+2. continuity-engine-ssos — hop 521 @ 2026-10-08T15:09Z (`ab04d15f`) named this repo. Honored. Not re-touched.
+3. hamiltonian-incursion — **522 this hop** (2026-10-08 12:11 CDT)
+4. The-Hive — next
+5. Cryptic-Heartbeat — not this run
+6. gaia-visualizer — not this run
+7. living-bibliography-continuity-engine — not this run
+8. continuity-ledger-cycle — not this run
 
-Hop 501 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the stale hop-501 pointer, leaves history intact, and hands the next cut to The-Hive.
+Hop 513 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the stale hop-513 pointer, leaves history intact, and hands the next cut to The-Hive.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -197,7 +197,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-440.md` (historical pin; hop 513 does not invent a new stage file)
+Stage note: `STAGE-440.md` (historical pin; hop 522 does not invent a new stage file)
 
 ---
 
@@ -206,7 +206,7 @@ Stage note: `STAGE-440.md` (historical pin; hop 513 does not invent a new stage 
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 501 preserved in the stamp. HEAD stamp is hop 513.
+Latest prior local hop note: hop 513 preserved in the stamp. HEAD stamp is hop 522.
 
 ---
 

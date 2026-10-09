@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **549** — 2026-10-09T16:07Z (2026-10-09 11:07 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **557** — 2026-10-09T22:13Z (2026-10-09 17:13 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -62,7 +62,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
 
-Hop 549 keeps the hop 535 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI.
+Hop 557 keeps the hop 549 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device.
 
 ---
 
@@ -171,20 +171,20 @@ Phi is unread on this arm. Paste still allocates `new THREE.Vector3` inside lerp
 `uGravity` copies `state.gravityPull`. The theta step multiplies `state.gravityPull`, not `uGravity`. Checker: `noteSessionGravityCopy` on gaia-visualizer stage 521. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 549)
+## Waterfall receipt (hop 557)
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 547 closed. Not re-touched.
-2. continuity-engine-ssos — hop 548 closed 2026-10-09T15:11Z (`2433147808820494c7284b32a018e933b7f096fc`). Named this node next. Not re-touched.
-3. hamiltonian-incursion — **549 this hop** (2026-10-09 11:07 CDT)
+1. ENCLAVE-ADAM-REUNITED — hop 555 closed. Not re-touched.
+2. continuity-engine-ssos — hop 556 closed 2026-10-09T21:13Z (`b503599555e430f6752d24861710f31ed620c267`). Named this node next. Not re-touched.
+3. hamiltonian-incursion — **557 this hop** (2026-10-09 17:13 CDT)
 4. The-Hive — next
-5. Cryptic-Heartbeat — hop 543 closed. Not this run.
-6. gaia-visualizer — kernel stage 521 pinned this chat (`af3ac20770a108422ce93ed402d492f597613bca`). README waterfall not re-opened.
-7. continuity-ledger-cycle — hop 545 closed. Not this run.
-8. living-bibliography-continuity-engine — not this run.
+5. Cryptic-Heartbeat — hop 551 closed. Not this run.
+6. gaia-visualizer — hop 552 closed. Not this run.
+7. living-bibliography-continuity-engine — hop 553 closed. Not this run.
+8. continuity-ledger-cycle — hop 554 closed. Not this run.
 
-Hop 535 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the stale hop-535 pointer, leaves history intact, and hands the next cut to The-Hive.
+Hop 549 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the stale hop-549 pointer, leaves history intact, and hands the next cut to The-Hive.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -197,7 +197,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-549.md`
+Stage note: `STAGE-557.md`
 
 ---
 
@@ -206,7 +206,7 @@ Stage note: `STAGE-549.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 535 preserved in the stamp. HEAD stamp is hop 549.
+Latest prior local hop note: hop 549 preserved in the stamp. HEAD stamp is hop 557.
 
 ---
 

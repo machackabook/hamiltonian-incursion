@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **571** — 2026-10-10T21:09Z (2026-10-10 16:09 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **584** — 2026-10-11T14:15Z (2026-10-11 09:15 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -62,7 +62,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
 
-Hop 571 keeps the hop 549 clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device.
+Hop 584 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device.
 
 ---
 
@@ -171,20 +171,19 @@ Phi is unread on this arm. Paste still allocates `new THREE.Vector3` inside lerp
 `uGravity` copies `state.gravityPull`. The theta step multiplies `state.gravityPull`, not `uGravity`. Checker: `noteSessionGravityCopy` on gaia-visualizer stage 521. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 571)
+## Waterfall receipt (hop 584)
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 569 closed 2026-10-10T19:14Z. Not re-touched.
-2. continuity-engine-ssos — hop 570 closed 2026-10-10T20:11Z. Named this node next. Not re-touched.
-3. hamiltonian-incursion — **571 this hop** (2026-10-10 16:09 CDT)
-4. The-Hive — next
-5. Cryptic-Heartbeat — not this run.
-6. gaia-visualizer — not this run.
-7. living-bibliography-continuity-engine — not this run.
-8. continuity-ledger-cycle — not this run.
+1. ENCLAVE-ADAM-REUNITED — hop 580 closed. Not re-touched.
+2. Cryptic-Heartbeat — hop 580 closed. Not re-touched.
+3. The-Hive — hop 581 closed. Not re-touched.
+4. continuity-ledger-cycle — hop 582 closed. Not re-touched.
+5. continuity-engine-ssos — hop 583 closed 2026-10-11T13:14Z. Named this node next. Not re-touched.
+6. hamiltonian-incursion — **584 this hop** (2026-10-11T14:15Z / 09:15 CDT)
+7. gaia-visualizer or other recently updated machackabook seats — next.
 
-Hop 557 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the waterfall after continuity-engine-ssos 570, leaves history intact, and hands the next cut to The-Hive.
+Hop 571 remains in `docs/LEDGER-STAMP.md`. This hop refreshes the waterfall after continuity-engine-ssos 583, leaves history intact, and hands the next cut to gaia-visualizer or other recent seats.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -197,7 +196,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-571.md`
+Stage note: `STAGE-584.md`
 
 ---
 
@@ -206,7 +205,7 @@ Stage note: `STAGE-571.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 557 preserved in the stamp. HEAD stamp is hop 571.
+Latest prior local hop note: hop 571 preserved in the stamp. HEAD stamp is hop 584.
 
 ---
 

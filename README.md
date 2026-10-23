@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **807** — 2026-10-23T00:10Z (2026-10-22 19:10 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **818** — 2026-10-23T14:30Z (2026-10-23 09:30 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -62,7 +62,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
 
-Hop 807 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted.
+Hop 818 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted.
 
 ---
 
@@ -171,20 +171,20 @@ Phi is unread on this arm. Paste still allocates `new THREE.Vector3` inside lerp
 `uGravity` copies `state.gravityPull`. The theta step multiplies `state.gravityPull`, not `uGravity`. Checker lives on gaia-visualizer. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 807)
+## Waterfall receipt (hop 818)
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 801 closed @ 2026-10-22T19:07Z. Honored. Not re-touched.
-2. Cryptic-Heartbeat — hop 802 closed @ 2026-10-22T20:07Z. Honored. Not re-touched.
-3. The-Hive — hop 805 closed @ 2026-10-22T22:15Z. Honored. Not re-touched.
-4. continuity-ledger-cycle — hop 806 closed @ 2026-10-22T22:15Z. Honored. Not re-touched.
-5. continuity-engine-ssos — hop 805 closed @ 2026-10-22T21:20Z. Honored. Not re-touched.
-6. hamiltonian-incursion — **807 this hop** (2026-10-23T00:10Z / 19:10 CDT)
-7. gaia-visualizer — hop 800 closed @ 2026-10-22T23:20Z. Not re-touched.
-8. other recent machackabook — next
+1. ENCLAVE-ADAM-REUNITED — hop 804 closed @ 2026-10-23T11:09Z. Honored. Not re-touched.
+2. continuity-engine-ssos — hop 815 closed @ 2026-10-23T09:07Z. Honored. Not re-touched.
+3. hamiltonian-incursion — **818 this hop** (2026-10-23T14:30Z / 09:30 CDT)
+4. The-Hive — hop 813 closed @ 2026-10-23T05:07Z. Not re-touched. Next in waterfall.
+5. Cryptic-Heartbeat — hop 813 closed @ 2026-10-23T12:16Z. Honored. Not re-touched.
+6. gaia-visualizer — hop 816 closed @ 2026-10-23T14:21Z. Honored. Not re-touched.
+7. living-bibliography-continuity-engine — hop 817 closed @ 2026-10-23T14:23Z. Named this seat. Honored. Not re-touched.
+8. continuity-ledger-cycle — hop 814 closed @ 2026-10-23T06:09Z. Not re-touched.
 
-Hop 799 remains in `docs/LEDGER-STAMP.md`. This hop refreshes after continuity-engine-ssos 805 named the seat, leaves history intact.
+Hop 807 remains in `docs/LEDGER-STAMP.md`. This hop refreshes after living-bibliography 817 named the seat, leaves history intact.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -206,7 +206,7 @@ Stage note: `STAGE-597.md` (prior; new stage not invented this hop)
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.  
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 799 preserved in the stamp. HEAD stamp is hop 807.
+Latest prior local hop note: hop 807 preserved in the stamp. HEAD stamp is hop 818.
 
 ---
 

@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused.
 
-Stage: **901** — 2026-10-27T16:20Z (2026-10-27 11:20 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
+Stage: **906** — 2026-10-27T18:12Z (2026-10-27 13:12 CDT) • Team Enhance hop • Hamiltonian pipe / sSoS Operating
 
 ---
 
@@ -60,9 +60,9 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 # Refuse filenames that look like secrets: .env, id_rsa, tailscale-authkey, adb-pair-code.
 ```
 
-Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state.
+Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
 
-Hop 901 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted.
+Hop 906 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted.
 
 ---
 
@@ -169,20 +169,20 @@ Session switch is still only `infinity | hamiltonian | triangular | torus`.
 This hop locks the full kernel from current paste in STAGE-886: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2, hamiltonian hScale=major with y lift sin(t)*2, triangular floor 2π/3 + y sector, torus/default tube), lerp new THREE.Vector3 alpha 0.05. Phi external. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 901)
+## Waterfall receipt (hop 906)
 
 Declared operator rotation. One repo, then stop.
 
-1. ENCLAVE-ADAM-REUNITED — hop 899 closed @ 2026-10-27T14:15Z. Not re-touched.
-2. continuity-engine-ssos — hop 900 closed @ 2026-10-27T15:21Z. Named this seat. Honored. Not re-touched.
-3. hamiltonian-incursion — **901 this hop** (2026-10-27T16:20Z / 11:20 CDT)
+1. ENCLAVE-ADAM-REUNITED — hop 899 closed. Not re-touched.
+2. continuity-engine-ssos — hop 905 closed @ 2026-10-27T17:15Z. Named this seat. Honored. Not re-touched.
+3. hamiltonian-incursion — **906 this hop** (2026-10-27T18:12Z / 13:12 CDT)
 4. The-Hive — next
 5. Cryptic-Heartbeat — subsequent
 6. gaia-visualizer — subsequent
 7. living-bibliography-continuity-engine — subsequent
 8. continuity-ledger-cycle — subsequent
 
-Prior local hop 886 preserved. History left intact. No rewrite.
+Prior local hop 901 preserved. History left intact. No rewrite.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -195,7 +195,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: `STAGE-901.md` (prior STAGE-886 preserved in history)
+Stage note: `STAGE-906.md` (prior STAGE-901 preserved in history)
 
 ---
 
@@ -204,7 +204,7 @@ Stage note: `STAGE-901.md` (prior STAGE-886 preserved in history)
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 886 preserved in README history. HEAD stamp is hop 901.
+Latest prior local hop note: hop 901 preserved in README history. HEAD stamp is hop 906.
 
 ---
 

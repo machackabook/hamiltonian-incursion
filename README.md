@@ -10,7 +10,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
 Stage: **1060** — 2026-11-07T19:15Z • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
-Parallel pin: **1120/1123** (major/minor hold + triangular floor snap from gaia-visualizer connecting chat) — 2026-11-07T21:11Z
+Parallel pin: **1120/1124** (major/minor hold + torus tube from gaia-visualizer connecting chat) — 2026-11-07T22:09Z
 
 ---
 
@@ -167,7 +167,7 @@ Both share the same ledger, remedy cards, and scanning concepts.
 ## Chat kernel (session pin)
 
 Session switch is still only `infinity | hamiltonian | triangular | torus`.
-This hop locks the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stage 1060 holds uniforms order uTime then uGravity. Parallel 1120 holds major/minor prior to switch; 1123 holds triangular floor snap with tAngle and ripple on raw theta. Paste not rewritten.
+This hop locks the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stage 1060 holds uniforms order uTime then uGravity. Parallel 1120 holds major/minor prior to switch; 1124 holds torus tube (major + minor * cos(phi)) on x/z. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
 ## Waterfall receipt (hop 1060)
@@ -179,7 +179,7 @@ Declared operator rotation (this run follows it exactly). One repo, then stop.
 3. hamiltonian-incursion — **1060 this hop** (2026-11-07T19:15Z)
 4. The-Hive — next
 5. Cryptic-Heartbeat — subsequent
-6. gaia-visualizer — subsequent (primary kernel to 1123)
+6. gaia-visualizer — subsequent (primary kernel to 1124)
 7. living-bibliography-continuity-engine — subsequent
 8. continuity-ledger-cycle — subsequent
 
@@ -197,7 +197,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
 Stage note: `STAGE-1059.md` (prior stages preserved in history)
-Parallel: `STAGE-1123.md`
+Parallel: `STAGE-1124.md`
 
 ---
 
@@ -206,7 +206,7 @@ Parallel: `STAGE-1123.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 1059 preserved in README history. HEAD stamp is hop 1060. Parallel pin 1123 added.
+Latest prior local hop note: hop 1059 preserved in README history. HEAD stamp is hop 1060. Parallel pin 1124 added.
 
 ---
 

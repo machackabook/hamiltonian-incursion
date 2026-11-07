@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
-Stage: **1059** — 2026-11-07T03:09Z • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
+Stage: **1060** — 2026-11-07T19:15Z • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
 Parallel pin: **1120/1121** (major/minor hold + infinity denom from gaia-visualizer connecting chat) — 2026-11-07T18:08Z
 
 ---
@@ -63,7 +63,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
 
-Hop 1059 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals.
+Hop 1060 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census.
 
 ---
 
@@ -167,23 +167,23 @@ Both share the same ledger, remedy cards, and scanning concepts.
 ## Chat kernel (session pin)
 
 Session switch is still only `infinity | hamiltonian | triangular | torus`.
-This hop locks the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stage 1059 holds uniforms order uTime then uGravity. Parallel 1120 holds major/minor prior to switch; 1121 holds infinity denom shared by x/z only. Paste not rewritten.
+This hop locks the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stage 1060 holds uniforms order uTime then uGravity. Parallel 1120 holds major/minor prior to switch; 1121 holds infinity denom shared by x/z only. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 1059)
+## Waterfall receipt (hop 1060)
 
 Declared operator rotation (this run follows it exactly). One repo, then stop.
 
 1. ENCLAVE-ADAM-REUNITED — hop closed. Honored. Not re-touched.
 2. continuity-engine-ssos — hop closed. Honored. Not re-touched.
-3. hamiltonian-incursion — **1059 this hop** (2026-11-07T03:09Z)
+3. hamiltonian-incursion — **1060 this hop** (2026-11-07T19:15Z)
 4. The-Hive — next
 5. Cryptic-Heartbeat — subsequent
 6. gaia-visualizer — subsequent (primary kernel to 1120/1121)
 7. living-bibliography-continuity-engine — subsequent
 8. continuity-ledger-cycle — subsequent
 
-Prior local hop 1058 preserved. History left intact. No rewrite.
+Prior local hop 1059 preserved. History left intact. No rewrite.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -206,7 +206,7 @@ Parallel: `STAGE-1120.md`
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 1058 preserved in README history. HEAD stamp is hop 1059. Parallel pin 1120 added.
+Latest prior local hop note: hop 1059 preserved in README history. HEAD stamp is hop 1060. Parallel pin 1120 added.
 
 ---
 

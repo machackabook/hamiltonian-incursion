@@ -9,7 +9,7 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
-Stage: **1156** — 2026-11-10T01:20Z • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
+Stage: **1156** — 2026-11-10T01:21Z • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
 Parallel pin: **1173** (hamiltonian parametric vertex traversal free of minor/phi with y lift sin(t)*2 from gaia-visualizer connecting chat) — 2026-11-10T01:15Z
 
 ---
@@ -63,7 +63,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
 
-Hop 1156 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1156. Source tree is the sole trusted neighbor.
+Hop 1156 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1156. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively.
 
 ---
 
@@ -176,7 +176,7 @@ Declared operator rotation (this run follows it exactly). One repo, then stop.
 
 1. ENCLAVE-ADAM-REUNITED — hop closed. Honored. Not re-touched.
 2. continuity-engine-ssos — hop 1173 closed @ 2026-11-10T00:20Z. Honored. Not re-touched.
-3. hamiltonian-incursion — **1156 this hop** (2026-11-10T01:20Z)
+3. hamiltonian-incursion — **1156 this hop** (2026-11-10T01:21Z)
 4. The-Hive — next
 5. Cryptic-Heartbeat — subsequent
 6. gaia-visualizer — hop 1173 closed @ 2026-11-10T01:15Z. Honored. Not re-touched.

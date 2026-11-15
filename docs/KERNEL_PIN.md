@@ -31,3 +31,6 @@ y = hScale * sin(theta * 3) + sin(t) * 2
 Phi is unused on the hamiltonian arm. Minor is unused on the hamiltonian arm. Ripple amplitude is 2, not minor, and does not take `hScale`. Shared rose factor `cos(theta * 3)` multiplies x and z only. Paste is not rewritten.
 
 Checker: `noteSessionHamiltonianArm` / `compileSessionStage440` in `src/hamiltonian.js`.
+
+## Parallel pin (2026-11-15T20:09Z)
+Connecting chat re-pasted the complete geometric field kernel. Sibling gaia-visualizer holds STAGE-1281: major/minor assignment order before switch (major = 10 + (idx * 2); minor = 3 + (toroidalWeave * 2)). Major unread by gravityPull. Minor takes toroidalWeave. Hamiltonian ignores minor. Paste not rewritten. No secrets. No device rooted. Numeral 137451921129154222.

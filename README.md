@@ -9,8 +9,8 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
-Stage: **1291** — 2026-11-16T01:15Z (2026-11-15 19:15 CST) • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
-Prior local: hop 1275 preserved. Mesh prior: continuity-ledger-cycle hop 1278. Honored. Not re-touched.
+Stage: **1305** — 2026-11-17T05:12Z (2026-11-16 23:12 CST) • Team Enhance hop • Hamiltonian pipe / sSoS Operating  
+Prior local: hop 1304 preserved. Mesh prior: gaia-visualizer hop 1305. Honored. Not re-touched.
 
 ---
 
@@ -63,7 +63,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
 
-Hop 1291 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1291. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively. Catalog the known from the source tree; seek only the unknown.
+Hop 1305 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1305. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively. Catalog the known from the source tree; seek only the unknown.
 
 ---
 
@@ -170,18 +170,18 @@ Session switch is still only `infinity | hamiltonian | triangular | torus`.
 This hop locks the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stages prior hold parallel. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 1291)
+## Waterfall receipt (hop 1305)
 
 Declared operator rotation after the four primary. One repo, then stop.
 
 1. ENCLAVE-ADAM-REUNITED — hop closed. Honored. Not re-touched.
 2. Cryptic-Heartbeat — hop closed. Honored. Not re-touched.
 3. The-Hive — hop closed. Honored. Not re-touched.
-4. continuity-ledger-cycle — hop 1278 closed. Honored. Not re-touched.
-5. hamiltonian-incursion — **1291 this hop** (2026-11-16T01:15Z)
+4. continuity-ledger-cycle — hop closed. Honored. Not re-touched.
+5. hamiltonian-incursion — **1305 this hop** (2026-11-17T05:12Z)
 6. then other recently updated user:machackabook repos — next
 
-Prior local hop 1275 preserved. History left intact. No rewrite.
+Prior local hop 1304 preserved. History left intact. No rewrite.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -203,7 +203,7 @@ Stage note: prior stages preserved in history.
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 1275 preserved in stamp history. HEAD stamp is hop 1291.
+Latest prior local hop note: hop 1304 preserved in stamp history. HEAD stamp is hop 1305.
 
 ---
 

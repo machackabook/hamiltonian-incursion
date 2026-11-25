@@ -9,8 +9,8 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
-Stage: **1382** — 2026-11-25T22:15Z • further geometric kernel refinement or phi binding catalog following connecting chat paste of update(t).  
-Prior local: hop 1381 @ 2026-11-25T21:10Z cascade or daily forge verification. Honored. Not rewritten. Mesh prior: gaia-visualizer hop 1395. Honored. The-New-S.O.S STAGE-7. Honored.
+Stage: **1383** — 2026-11-25T23:11Z • mesh continuity expansion or continuity-ledger-cycle pin following connecting chat paste of update(t).  
+Prior local: hop 1382 @ 2026-11-25T22:15Z further geometric kernel refinement or phi binding catalog. Honored. Not rewritten. Mesh prior: gaia-visualizer hop 1396. Honored. The-New-S.O.S STAGE-8. Honored.
 
 ---
 
@@ -63,7 +63,7 @@ test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
 
 Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
 
-Hop 1382 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1382. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively. Catalog the known from the source tree; seek only the unknown.
+Hop 1383 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1383. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively. Catalog the known from the source tree; seek only the unknown.
 
 ---
 
@@ -171,21 +171,21 @@ Session switch is still only `infinity | hamiltonian | triangular | torus`.
 This hop holds the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external. Stages prior hold parallel. Paste not rewritten.
 Do not promote extra labels until a future paste includes them.
 
-## Waterfall receipt (hop 1382)
+## Waterfall receipt (hop 1383)
 
 Declared operator rotation. One repo, then stop.
 
 1. ENCLAVE-ADAM-REUNITED — hop closed. Honored. Not re-touched.
 2. continuity-engine-ssos — hop closed. Honored. Not re-touched.
-3. hamiltonian-incursion — **1382 this hop**
+3. hamiltonian-incursion — **1383 this hop**
 4. The-Hive — subsequent
 5. Cryptic-Heartbeat — subsequent
-6. gaia-visualizer — hop 1395. Honored.
+6. gaia-visualizer — hop 1396. Honored.
 7. living-bibliography-continuity-engine — subsequent
 8. continuity-ledger-cycle — hop 1370. Honored. Next.
-9. The-New-S.O.S — STAGE-7. Honored.
+9. The-New-S.O.S — STAGE-8. Honored.
 
-Prior local hop 1381 preserved. History left intact. No rewrite.
+Prior local hop 1382 preserved. History left intact. No rewrite.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
 Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
@@ -198,7 +198,7 @@ Session attachments cataloged, not executed. ADB panes are UI simulations. No de
 
 Stamp: `docs/LEDGER-STAMP.md`
 Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: prior stages preserved in history. STAGE-1382.md holds the further geometric kernel refinement or phi binding catalog following connecting chat paste of update(t).
+Stage note: prior stages preserved in history. STAGE-1383.md holds the mesh continuity expansion or continuity-ledger-cycle pin following connecting chat paste of update(t).
 
 ---
 
@@ -207,7 +207,7 @@ Stage note: prior stages preserved in history. STAGE-1382.md holds the further g
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 1381 preserved in stamp history. HEAD is hop 1382.
+Latest prior local hop note: hop 1382 preserved in stamp history. HEAD is hop 1383.
 
 ---
 

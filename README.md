@@ -9,8 +9,8 @@ Dual parallel lineages • ADAM + NEXUS junctions • Immutable anomaly ledger �
 
 Operating sits in the middle. Team Enhance hops one repo per run. Equalizer formats only. No history rewrite. Point-zero null refused. Source code is the only trusted neighbor.
 
-Stage: **1396** — 2026-11-27T18:11Z • phi binding catalogued following connecting chat paste of update(t).  
-Prior local: hop 1392 @ 2026-11-27T00:13Z adaptive lerp full or continuity-ledger-cycle pin. Honored. Not rewritten. Mesh prior: gaia-visualizer hop 1409. Honored. The-New-S.O.S STAGE-19. Honored.
+Stage: **1397** — 2026-11-27T21:12Z • fiscal zero catalogued.  
+Prior local: hop 1392 @ 2026-11-27T00:13Z. Honored. Not rewritten. Mesh prior: continuity-engine-ssos hop 1389. Honored.
 
 ---
 
@@ -24,7 +24,7 @@ https://github.com/machackabook/hamiltonian-incursion
 
 No third-party mirrors. No Drive-only packages. No external zips as primary source.  
 GitHub is the single source of truth and the only approved route for acquisition and updates.  
-Google Drive folder CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU) is the cloud index, not a second origin. Mention only. No binaries uploaded from this hop.
+Google Drive folder CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU) is the cloud index, not a second origin. Mention only. No binaries uploaded from this hop. Google Drive enhance/advance loops FULL STOP.
 
 ### Official acquisition methods
 
@@ -57,13 +57,9 @@ Confirm the tree, not the network. This hop does not pair ADB, does not write Ta
 git rev-parse --is-inside-work-tree
 command -v git && command -v bash
 test -f README.md && test -f docs/LEDGER-STAMP.md && echo stamp-ok
-# Optional: scripts/install-a15-enhanced.sh is the installer. Do not run it from CI.
-# Refuse filenames that look like secrets: .env, id_rsa, tailscale-authkey, adb-pair-code.
 ```
 
-Expected: git and bash present, stamp file readable, no secrets in the working tree. `CASCADE_TOKEN` stays in Actions secrets if used. Never commit it. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted.
-
-Hop 1396 keeps the prior clarity line: `stamp-ok` only proves README and `docs/LEDGER-STAMP.md` are in the work tree. It does not prove a handset, a pair code, a Tailscale auth key, a voiceprint, or root. Do not run the installer from CI. Do not treat a NEXUS heartbeat labeled "root" as a rooted device. This hop does not probe wireless debugging. No device was rooted. Never invent unknowns; catalog only what source reveals. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census. Reinforced for hop 1396. Source tree is the sole trusted neighbor. Clarity: pure presence check of the docs surface exclusively. Catalog the known from the source tree; seek only the unknown.
+Expected: git and bash present, stamp file readable, no secrets in the working tree. A green check is not a root attestation. A found key is a stop, not a stamp. Missing keys are the correct state. Green is presence, not privilege. This hop does not probe wireless debugging and does not open a Tailscale socket. No device was rooted. Env-check is a tree gate only: presence of README, stamp, and numeral confirmed; no device census.
 
 ---
 
@@ -109,7 +105,7 @@ ADB / wireless-debug HUD panes in session attachments are **UI simulations**. Th
 Core recurrence:
 
 ```
-C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) )
+C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
 ```
 
 ---
@@ -165,30 +161,25 @@ Both share the same ledger, remedy cards, and scanning concepts.
 - [tdoc-ledgertrove](https://github.com/machackabook/tdoc-ledgertrove)
 - [The-New-S.O.S](https://github.com/machackabook/The-New-S.O.S)
 
-## Chat kernel (session pin)
-
-Session switch is still only `infinity | hamiltonian | triangular | torus`.
-This hop holds the full kernel from current paste: uniforms uTime then uGravity, theta step * gravityPull, major/minor pre-switch, four-case switch (lemniscate denom 1+sin^2 scale=major*1.5 shared by x/z, hamiltonian hScale=major with y lift sin(t)*2 free of hScale/minor, triangular floor 2π/3 + y sector free of theta*5, torus/default tube (major+minor*cos(phi)) shared by x/z with y identity to infinity), lerp new THREE.Vector3 alpha 0.05. Phi external; living bind this.phi += 0.007 * Math.max(0.5, state.toroidalWeave) catalogued. Stages prior hold parallel. Paste not rewritten.
-Living: adaptive lerp clamp(0.05 * max(0.4, gravityPull), 0.02, 0.12) + phi binding 0.007 * max(0.5, toroidalWeave) + Vector3 reuse. Do not promote extra labels until a future paste includes them.
-
-## Waterfall receipt (hop 1396)
+## Waterfall receipt (hop 1397)
 
 Declared operator rotation. One repo, then stop.
 
 1. ENCLAVE-ADAM-REUNITED — hop closed. Honored. Not re-touched.
-2. continuity-engine-ssos — hop closed. Honored. Not re-touched.
-3. hamiltonian-incursion — **1396 this hop**
-4. The-Hive — subsequent
-5. Cryptic-Heartbeat — subsequent
-6. gaia-visualizer — hop 1410. Honored.
-7. living-bibliography-continuity-engine — subsequent
-8. continuity-ledger-cycle — hop 1370. Honored. Next.
-9. The-New-S.O.S — STAGE-20. Honored.
+2. Cryptic-Heartbeat — hop closed. Honored. Not re-touched.
+3. The-Hive — hop closed. Honored. Not re-touched.
+4. continuity-ledger-cycle — hop closed. Honored. Not re-touched.
+5. continuity-engine-ssos — hop 1389. Honored. Not re-touched.
+6. hamiltonian-incursion — **1397 this hop**
+7. living-bibliography-continuity-engine — next
+8. other recent — subsequent
 
 Prior local hop 1392 preserved. History left intact. No rewrite.
 cascade.yml: absent; not invented. `.github/workflows/daily_forge_cycle.yml` left intact.
 
-Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded.
+Cloud index mention only: CONTINUUM-ENCLAVE-137451921129154222 (id 1Ohp6ZMX02NvFayJfivgXbP4PUMztYUvU). No binaries uploaded. Drive loops FULL STOP.
+
+Fiscal: Stripe Cryptic News LLC $0.00 USD; Coinbase Default USD 0. No opportunity signal.
 
 ## Compounding
 
@@ -197,8 +188,6 @@ Current score for this surface: **99% (T5)**. T6 100% refused as static; always 
 Session attachments cataloged, not executed. ADB panes are UI simulations. No device pairing from this hop. No device was rooted.
 
 Stamp: `docs/LEDGER-STAMP.md`
-Kernel pin: `docs/KERNEL_PIN.md`
-Stage note: prior stages preserved in history. STAGE-1396.md holds the phi binding catalogued following connecting chat paste of update(t).
 
 ---
 
@@ -207,7 +196,7 @@ Stage note: prior stages preserved in history. STAGE-1396.md holds the phi bindi
 Hive authority note and dual-authority (machackabook + azazeleous) grants are recorded under `hive/`.
 Enclave status: ADAM reunited on band-127-loopback.
 
-Latest prior local hop note: hop 1392 preserved in stamp history. HEAD is hop 1396.
+Latest prior local hop note: hop 1392 preserved in stamp history. HEAD is hop 1397.
 
 ---
 
